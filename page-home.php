@@ -14,7 +14,7 @@ get_header(); ?>
 			<div class="main-description">
 				<div id="welcome-box">      <!--**************** Welcome ***********************-->
 					<div class="container">			
-						<div>
+						<div class="col-xs-12">
 							<h1>Our Mission</h1>
 						</div>
 						<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0">
@@ -77,7 +77,9 @@ get_header(); ?>
 						<div class="col-sm-8 col-sm-offset-2">
 							<p>Edovo's secure tablet techology is the future of daily education and rehabilitation for corrections. Edovo helps to unlock the potential of incarcerated individuals and build pathways for them to make positive changes.</p>
 						</div>
-						<img id="solution-img" src="<?php bloginfo('wpurl') ?>/wp-content/uploads/2015/07/Tablet_Hands.png"/>
+						<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+							<img id="solution-img" src="<?php bloginfo('wpurl') ?>/wp-content/uploads/2015/07/Tablet_Hands.png"/>
+						</div>
 					</div>
 					<div class="break"></div>
 					<div class="gradient">
@@ -825,17 +827,19 @@ get_header(); ?>
 
 									      	<div class="post-content">
 									      		<div class="edovo-logo"></div>
-									      		<p><?php the_excerpt(); ?></p>
+									      		<p class="excerpt"><?php the_excerpt(); ?></p>
 									      		
-									      		<div class="read-more">
-								      				<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
-								      					<div class="read-more-link">
-									      					<h2>
-										      					Read More
-									      					</h2>
-									      				</div>
-								      				</a>
-								      			</div>
+									      		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+										      		<div class="read-more">
+									      				<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
+									      					<div class="read-more-link">
+										      					<h2>
+											      					Read More
+										      					</h2>
+										      				</div>
+									      				</a>
+									      			</div>
+									      		</div>
 									      	</div>
 									      
 									    <?php endwhile; ?>

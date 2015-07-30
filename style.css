@@ -1106,8 +1106,8 @@ li {
   margin: 0 auto;
   position: absolute;
   bottom: -34px;
-  left: 52%;
-  margin-left: -50px;
+  left: 50%;
+  margin-left: -35px;
 }
 
 .ribbon-left {
@@ -2228,8 +2228,7 @@ li {
 
 #thesolution #solution-img {
   position: relative;
-  height: 400px;
-  width: auto;
+  width: 100%;
   top: 105px;
   margin-top: -40px;
 }
@@ -3016,7 +3015,7 @@ li {
 }
 
 #blog-box-home .read-more {
-  width: 340px;
+  width: 100%;
   height: 70px;
   margin: 40px auto 40px auto;
 }
@@ -3133,6 +3132,10 @@ li {
   letter-spacing: .08em;
   line-height: 28px;
   margin: 0;
+}
+
+#blog-box-home .blog-post p.excerpt, #blog-box .blog-post p.excerpt {
+  text-align: left;
 }
 
 #blog-box-home .blog-post .post-title h2, #blog-box .blog-post .post-title h2 {
@@ -3308,6 +3311,9 @@ li {
   .title-small {
     display: none;
   }
+  #blog-box-home .blog-post .read-more {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -3397,7 +3403,6 @@ li {
     height: 100%;
   }
   #thesolution #solution-img {
-    height: 300px;
     top: 75px;
   }
   #thesolution .break {
@@ -3460,6 +3465,9 @@ li {
 }
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
   #thesolution .solution {
     margin-top: 40px;
   }
@@ -3468,6 +3476,23 @@ li {
   }
   #thesolution .solution .circle {
     margin-bottom: 0;
+  }
+  #thesolution #solution-img {
+    top: 50px;
+  }
+  #thesolution .break {
+    height: 50px;
+  }
+  #blog-box-home .blog-post {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #blog-box-home .blog-post .excerpt {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  #blog-box-home .blog-post .edovo-logo {
+    display: none;
   }
 }
 

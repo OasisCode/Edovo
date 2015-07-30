@@ -140,6 +140,10 @@ function add_google_fonts() {
 }
 add_action('wp_print_styles', 'add_google_fonts');
 
+add_filter( "the_excerpt", "add_class_to_excerpt" );
+function add_class_to_excerpt( $excerpt ) {
+    return str_replace('<p', '<p class="excerpt"', $excerpt);
+}
 
 /**
  * Implement the Custom Header feature.
