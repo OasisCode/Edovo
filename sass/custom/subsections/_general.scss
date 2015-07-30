@@ -1,0 +1,354 @@
+//------General Formatting Rules-----
+#masthead{
+	background-color:$color-lightgray;
+	padding:10px 0;
+}
+
+a:visited{
+	color:#404040;
+}
+
+a{
+	color:#404040;
+	text-decoration:none!important;
+	transition:0.2s all;
+	outline: none !important;
+	font-family: $font-primary;
+}
+
+a:active, a:hover{
+	text-decoration:none;
+	color:$color-highlight;
+	transition:0.2s all;
+}
+
+ul
+{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+p{
+	font-size:16px;
+	font-family:$font-secondary;
+	font-weight:300;
+}
+
+//small button
+.small-button-1{
+	display:inline-block;
+	text-align:center;
+	line-height:40px;
+	width:80%;
+	height:40px;
+	font-size:18px;
+	font-family: $font-primary;
+	font-weight: 600;
+	background-color: #309fdb;
+	color: #fff;
+	box-shadow: 0 1px 2px #888888;
+	cursor: pointer;
+
+	&.close-tab {margin-bottom: 40px;}
+
+	&:hover {
+		text-decoration:none;
+		background-color:#55c0fa;
+	}
+
+	&:active {
+		text-decoration:none;
+		color: #fff;
+		background-color:#4b4b4b;
+	}
+}
+
+.small-button-2{
+	display:inline-block;
+	text-align:center;
+	line-height:50px;
+	width:80%;
+	height:50px;
+	font-size:18px;
+	font-family: $font-primary;
+	font-weight: 600;
+	background-color: #fff;
+	color: #404040;
+	box-shadow: 0 1px 2px #888888;
+	cursor: pointer;
+
+	&.contact {width: 60%;}
+
+	&.learn-more {
+		margin: 0 0 30px 0;
+		z-index: 0;
+	}
+
+	&:hover {
+		text-decoration:none;
+		background-color:#f0efef;
+	}
+
+	&:active {
+		text-decoration:none;
+		color:white;
+		background-color:#4b4b4b;
+	}
+}
+
+//typical page header
+.entry-header{
+	color:$color-text;
+	padding:20px 0;
+	border-bottom:1px solid #d6d6d6;
+
+	h1{
+		font-weight:300;
+		font-size:30px;
+	}
+}
+
+//general text at top of each page
+.introduction{
+	h3.prominent{
+		text-align:left;
+		padding-top:20px;
+		margin-bottom:60px;
+	}
+}
+
+//Footer Fix (so it always sits at the bottom)
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+#page {
+	min-height:100%;
+	position:relative;
+}
+
+#content {
+	padding-bottom:$footer-height; /* Height of the footer element */
+}
+
+#mastfooter {
+	background-color:$color-gray;
+	width:100%;
+	height:$footer-height;
+	position:absolute;
+	bottom:0;
+	left:0;
+
+	.site-info{
+		padding-top:20px;
+	}
+
+	#footer-menu{
+		margin:0;
+		padding:0;
+		li{
+			display:inline-block;
+
+			a{
+				color:white;
+				padding:20px;
+				padding-left:0;
+				font-family: $font-secondary;
+				font-size:16px;
+
+				&:hover{
+					color:$color-highlight;
+					text-decoration:none;
+				}
+			}
+		}
+	}
+}
+
+//General text formatting
+
+h1 {
+	font-family: $font-primary;
+	font-size: 60px;
+	font-weight: 300;
+}
+
+h2 {
+	font-family: $font-primary;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+h3 {
+	font-family: $font-primary;
+	font-size: 22px;
+}
+
+p {
+	font-family: $font-secondary;
+	font-size: 19px;
+	letter-spacing: 1.8px;
+	line-height: 29px;
+}
+
+li {
+	font-family: $font-secondary;
+	font-size: 19px;
+	letter-spacing: 1px;
+	line-height: 29px;
+}
+
+//CSS Shapes
+
+#three-dots-cs, #three-dots-ep, #three-dots-up, #three-dots {
+
+	.circle-1 {
+		width: 8px;
+		height: 8px;
+		background: #309fdc;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		margin: 10px auto;
+	}
+	.circle-2 {
+		width: 12px;
+		height: 12px;
+		background: #309fdc;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+		margin: 10px auto;
+	}
+	.circle-3 {
+		width: 16px;
+		height: 16px;
+		background: #309fdc;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		border-radius: 8px;
+		margin: 10px auto;
+	}
+}
+
+.circle {
+	width: 140px;
+	height: 140px;
+	background: #f0efef;
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	margin: 0 auto;
+	box-shadow: 0 1px 2px #888888;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 35px solid #f7f7f7;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -34px;
+  left: 52%;
+  margin-left: -50px;
+}
+
+.ribbon-left {
+	border-bottom: 20px solid #0d5e89;
+	border-left: 46px solid transparent;
+	border-right: 0px solid transparent;
+	height: 0;
+	width: 10px;
+}
+
+.ribbon-right {
+	border-bottom: 20px solid #0d5e89;
+	border-left: 0px solid transparent;
+	border-right: 46px solid transparent;
+	height: 0;
+	width: 10px;
+}
+
+.line1 {
+	height: 5px;
+	width: 80%;
+	border-bottom: 5px solid #f0efef;
+	margin: auto;
+	position: relative;
+	top: 113px;
+}
+
+.line2 {
+	border-bottom: 1px solid #fff;
+}
+
+.line3 {
+	border-bottom: 4px solid #3a3a3a;
+}
+
+//Contact Form
+.help-block {display: none !important;}
+
+.alert-warning {display: none !important;}
+
+.wpcf7 {
+		border: 10px solid #3a3a3a;
+		box-shadow: 0 2px 4px #888888;
+		overflow: hidden;
+
+		.field, .field2 {
+			line-height: 36px;
+			font-size: 24px;
+			font-family: $font-primary-light;
+			width: 100%;
+			border-top: none;
+			border-left: none;
+			border-right: none;
+			border-bottom: 10px solid #3a3a3a;
+			border-radius: 0;
+			margin: 0;
+			padding: 12px;
+
+			option {padding: 0;}
+		}
+
+		.field {height: 75px;}
+
+		.field2 {height: 200px;}
+
+		.form-group {margin-bottom: 0px;}
+
+		img.ajax-loader {display: none;}
+
+		.submit-button {
+				border: none;
+				background-color: #309fdb;
+				width: 100%;
+				line-height: 39px;
+				font-size: 36px;
+				font-family: $font-primary;
+				box-shadow: none;
+				text-shadow: none;
+				border-radius: 0;
+				color: #fff;
+				outline: none;
+
+				&:hover {
+					background: #55c0fa;
+					box-shadow: none;
+					color: #fff;
+				}
+
+				&:active {
+					color: #fff;
+					background-color:#4b4b4b;
+				}
+			}
+	}

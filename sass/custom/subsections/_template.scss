@@ -1,0 +1,395 @@
+//*******************************************  BOOTSTRAP TEMPLATES  *************************************************//
+#content {
+
+	.section {
+		vertical-align: middle;
+		display: table-cell;
+		height: 100%;
+
+		.sectionHead {
+			margin: auto;
+			text-align: center;
+			width: 50%;
+
+			h2 {
+				font-family: $font-primary;
+				color: $color-text;
+				font-size: 56px;
+				font-weight: 300;
+			}
+		}
+		
+		.sectionText {
+			margin: auto;
+			text-align: center;
+			width: 50%;
+
+			h3 {
+				font-family: $font-primary;
+				color: $color-text;
+				font-weight: 300;
+			}
+		}
+
+		.sectionContent {
+			margin: auto;
+			text-align: center;
+		}
+	}
+
+	//****2 COLUMNS****//
+
+	#twoColumns {
+		background-color: #fff;
+		padding: 50px 0;
+		display: table;
+		width: 100%;
+
+		h2, h3 {
+			color: #000000;
+			margin-bottom: 25px;
+		}
+
+		h4 {
+			color: #000000;
+			margin-bottom: 15px;
+			margin-top: 15px;
+			font-family: $font-primary;
+		}
+		
+		.sectionContent {
+			width: 100%;
+		}
+
+		.box {
+			border: solid 1px #e6e6e6;
+			border-radius: 10px;
+			background-color: #fff;
+			padding: 10px 20px;
+			text-align: left;
+
+			h4 {text-align: center;}
+		}
+	}
+
+	//****3 COLUMNS****//
+
+	#threeColumns {
+		background-color: #e6e6e6;
+		padding: 50px 0;
+		display: table;
+		width: 100%;
+
+		h2, h3 {
+			color: #000000;
+			margin-bottom: 25px;
+		}
+
+		h4 {
+			color: #000000;
+			margin-bottom: 15px;
+			margin-top: 15px;
+			font-family: $font-primary;
+		}
+		
+		.sectionContent {
+			width: 100%;
+		}
+
+		.box {
+			border: solid 1px #e6e6e6;
+			border-radius: 10px;
+			background-color: #fff;
+			padding: 10px 20px;
+			text-align: left;
+
+			h4 {text-align: center;}
+		}
+	}
+
+	//****4 COLUMNS****//
+
+	#fourColumns {
+		background-color: #fff;
+		padding: 50px 0;
+		display: table;
+		width: 100%;
+
+		h2, h3 {
+			color: #000000;
+			margin-bottom: 25px;
+		}
+
+		h4 {
+			color: #000000;
+			margin-bottom: 15px;
+			margin-top: 15px;
+			font-family: $font-primary;
+		}
+		
+		.sectionContent {
+			width: 100%;
+		}
+
+		.box {
+			border: solid 1px #e6e6e6;
+			border-radius: 10px;
+			background-color: #fff;
+			padding: 10px 20px;
+			text-align: left;
+
+			h4 {text-align: center;}
+		}
+	}
+
+	//****3 COLUMNS FONT AWESOME****//
+
+	#threeColumnsFontAwesome {
+		background-color: #e6e6e6;
+		padding: 50px 0;
+		display: table;
+		width: 100%;
+
+		h2, h3 {
+			color: #000000;
+			margin-bottom: 25px;
+		}
+
+		h4 {
+			color: #000000;
+			margin-bottom: 15px;
+			margin-top: 15px;
+			font-family: $font-primary;
+		}
+		
+		.sectionContent {
+			width: 100%;
+		}
+
+		.box {
+			border: solid 1px #e6e6e6;
+			border-radius: 10px;
+			background-color: #fff;
+			padding: 10px 20px;
+			text-align: center;
+
+			h4 {text-align: center;}
+		}
+
+		.fa-money, .fa-shirtsinbulk, .fa-cubes {
+			font-size: 20em;
+			margin:20px
+		}
+	}
+
+	//****CHECKMARK LIST****//
+
+	#threeColumnsImages {
+		background-color: #fff;
+		padding: 50px 0;
+		display: table;
+		width: 100%;
+
+		h2, h3 {
+			color: #000000;
+			margin-bottom: 25px;
+		}
+
+		h4 {
+			color: #000000;
+			margin-bottom: 15px;
+			margin-top: 15px;
+			font-family: $font-primary;
+		}
+		
+		.sectionContent {
+			width: 100%;
+		}
+
+		.box {
+			border: solid 1px #e6e6e6;
+			border-radius: 10px;
+			background-color:  #e6e6e6;
+			padding: 10px 20px;
+			text-align: center;
+			margin-bottom: 10px;
+
+			h4 {text-align: center;}
+		}
+
+		img {
+			background-color: blue;
+			border-radius: 50%;
+			width:100%;
+			max-width: 150px;
+			margin: 20px;
+		}
+	}
+
+
+	//****3 ROW IMAGES****//
+
+	#threeRowsImages {
+		background-color: #e6e6e6;
+		padding: 50px 0;
+		display: table;
+		width: 100%;
+
+		h2, h3 {
+			color: #000000;
+			margin-bottom: 25px;
+		}
+
+		h4 {
+			color: #000000;
+			margin-bottom: 15px;
+			margin-top: 15px;
+			font-family: $font-primary;
+		}
+		
+		.sectionContent {
+			width: 100%;
+		}
+
+		.box {
+			border: solid 2px #fff;
+			border-radius: 10px;
+			// background-color: #fff;
+			// padding: 10px 20px;
+			margin-bottom: 10px;
+			text-align: left;
+			height: 100%;
+			overflow: auto;
+
+			h4 {text-align: center;}
+
+			.col-sm-2 {
+				background-color: #fff;
+			}
+
+			.col-sm-10 {
+				background-color:  #e6e6e6;
+				padding: 20px;
+			}
+		}
+
+		img {
+			background-color: blue;
+			border-radius: 50%;
+			width: 100%;
+			max-width: 150px;
+			margin: 20px auto;
+		}
+	}
+
+	//**** 4 ROW PING PONG****//
+
+	#fourRowsPingPong {
+		background-color: #fff;
+		padding: 50px 0;
+		display: table;
+		width: 100%;
+
+		h2, h3 {
+			color: #000000;
+			margin-bottom: 25px;
+		}
+
+		h4 {
+			color: #000000;
+			margin-bottom: 15px;
+			margin-top: 15px;
+			font-family: $font-primary;
+		}
+		
+		.sectionContent {
+			width: 100%;
+		}
+
+		.box {
+			border: solid 2px #e6e6e6;
+			border-radius: 10px;
+			// background-color: #fff;
+			// padding: 10px 20px;
+			margin-bottom: 10px;
+			text-align: left;
+			height: 100%;
+			overflow: auto;
+
+			h4 {text-align: center;}
+
+			.col-sm-2 {
+				background-color: #e6e6e6;
+			}
+
+			.col-sm-10 {
+				background-color:  #fff;
+				padding: 20px;
+			}
+		}
+
+		img {
+			background-color: blue;
+			border-radius: 50%;
+			width: 100%;
+			max-width: 150px;
+			margin: 20px auto;
+		}
+	}
+
+
+
+	//****CHECKMARK LIST****//
+
+	#checkmarkList {
+		background-color: #e6e6e6;
+		padding: 50px 0;
+		display: table;
+		width: 100%;
+
+		.checkMark {
+			display: block;
+			float: left;
+
+			img {
+				height: auto;
+				width: $check-size;			
+			}
+		}
+
+		.checkList {
+			display: block;
+			padding-left: $check-size;
+
+			p {margin-bottom: 0;}
+		}
+
+		h2, h3 {
+			color: #000000;
+			margin-bottom: 25px;
+		}
+
+		h4 {
+			color: #000000;
+			margin-bottom: 15px;
+			margin-top: 15px;
+			font-family: $font-primary;
+		}
+		
+		.sectionContent {
+			width: 100%;
+		}
+
+		.box {
+			border: solid 1px #e6e6e6;
+			border-radius: 10px;
+			background-color: #fff;
+			padding: 10px 20px;
+			text-align: left;
+
+			h4 {text-align: center;}
+		}
+	}
+
+
+}

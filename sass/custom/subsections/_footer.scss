@@ -1,0 +1,53 @@
+//Footer Fix (so it always sits at the bottom)
+@media(min-width:768px){
+
+	html,
+	body {
+		margin:0;
+		padding:0;
+		height:100%;
+	}
+
+	#page {
+		min-height:100%;
+		position:relative;
+	}
+
+	#content {
+		padding-bottom:$footer-height; /* Height of the footer element */
+	}
+
+	#mastfooter {
+		background-color:$color-gray;
+		width:100%;
+		height:$footer-height;
+		position:absolute;
+		bottom:0;
+		left:0;
+
+		.site-info{
+			padding-top:20px;
+		}
+
+		#footer-menu{
+			margin:0;
+			padding:0;
+			li{
+				display:inline-block;
+
+				a{
+					color:white;
+					padding:20px;
+					padding-left:0;
+					font-family: $font-secondary;
+					font-size:16px;
+
+					&:hover{
+						color:$color-highlight;
+						text-decoration:none;
+					}
+				}
+			}
+		}
+	}
+}

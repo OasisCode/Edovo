@@ -1,0 +1,23 @@
+$color-primary: #7892CF;
+$color-highlight: #FF8C00;
+$color-text: #11153e;
+$color-lightgray: #e6e6e6;
+$color-gray: #d6d6d6;
+
+$font-primary: "Gotham";
+$font-primary-light: "Gotham-Light";
+$font-primary-book: "Gotham-Book";
+$font-secondary: "Garamond";
+$font-secondary-bold: "Garamond-Bold";
+
+$footer-height: 100px;
+$check-size:35px; //for the checklist formatting
+
+//Standard max width values
+$breakpoint-m: 767px; //use for max-width (m stands for mobile)
+$breakpoint-mt: 991px; //use for max-width (mt stands for mobile-tablet)
+$breakpoint-mtd:1199px; //use for max-width (mtd stands for mobile-tablet-desktop)
+
+//Standard min-width values
+$breakpoint-d-only:992px; //use for min-width (desktop only)
+$breakpoint-td-only:768px; //use for min-width (tablet and desktop only)
